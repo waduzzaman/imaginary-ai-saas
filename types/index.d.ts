@@ -44,6 +44,7 @@ declare type CreateUserParams = {
       transformationType: string;
       width: number;
       height: number;
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       config: any;
       secureURL: string;
       transformationURL: string;
